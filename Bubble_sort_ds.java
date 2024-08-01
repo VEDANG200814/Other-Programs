@@ -8,7 +8,7 @@ public class Bubble_sort_ds {
         a[i]=sc.nextInt();
         int t,j;
         for(i=0;i<9;i++){
-            for(j=0;j<9;j++)
+            for(j=0;j<9-i;j++)
             if(a[j+1]>a[j]){
                 t=a[j+1];
                 a[j+1]=a[j];
