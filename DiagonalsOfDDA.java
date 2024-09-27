@@ -15,16 +15,14 @@ public class DiagonalsOfDDA {
             System.out.println();
         }
         System.out.println("Diagonals of the matrix are:");
-        int c=3;
         for(i=0;i<4;i++){
             for(j=0;j<4;j++){
-                if(i==j||j==c)
+                if(i==j||i+j==3)
                 System.out.print(a[i][j]+"\t");
                 else
                 System.out.print("\t");
             }
             System.out.println();
-            c--;
         }
     }
 }
