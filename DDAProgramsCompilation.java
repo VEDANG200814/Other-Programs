@@ -15,10 +15,9 @@ public class DDAProgramsCompilation {
             System.out.println();
         }
         for(i=0;i<n;i++){
+            sld+=a[i][i];
             for(j=0;j<n;j++)
-            if(i==j)
-            sld+=a[i][j];
-            else if(i+j==n-1)
+            if(i+j==n-1)
             srd+=a[i][j];
         }
         if(sld==srd)
