@@ -3,7 +3,7 @@ public class Anagram {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter two words");
-        String w1=sc.next(),w2=sc.next();
+        String w1=sc.next().toUpperCase(),w2=sc.next().toUpperCase();
         int f=1;
         if(w1.length()==w2.length()){
             for(int i=0;i<w1.length();i++){
@@ -17,6 +17,7 @@ public class Anagram {
         else
         System.out.println(w1+" and "+w2+" is not an anagram");
         }
+        else
         System.out.println("Wrong Input!!");
     }
 }

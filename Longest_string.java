@@ -4,7 +4,6 @@ public class Longest_string {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the sentence");
         String s=sc.nextLine()+' ';
-        int maxl=0;
         String maxw="",w="";char ch;
         for(int i=0;i<s.length();i++){
             ch=s.charAt(i);
