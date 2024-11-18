@@ -3,7 +3,7 @@ public class Consecutive_Vowels {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sentence");
-        String  s = sc.nextLine().toUpperCase()+" ",v="AEIOUaeiou";
+        String  s = sc.nextLine().toUpperCase()+" ",v="AEIOU";
         int nc=0;
         System.out.println("Pair of vowels:");
         for(int i=0;i<s.length()-1;i++){
