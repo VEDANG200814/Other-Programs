@@ -24,7 +24,7 @@ public class s_rowS_n_s_coloumnS {
         for(i=0;i<r;i++)
         System.out.println("Row "+(i+1)+": "+s_row[i]);
         System.out.println("SUM OF COLOUMNS: ");
-        for(i=0;i<r;i++)
+        for(i=0;i<c;i++)
         System.out.println("Coloumn "+(i+1)+": "+s_coloumn[i]);
     }
 }
