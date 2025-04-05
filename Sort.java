@@ -10,6 +10,7 @@ public class Sort {
         for(int i=0;i<n;i++)
         b[i]=sc.nextInt();
         a=b;
+        //selction sort in ascending order
         for(int i=0;i<n-1;i++){
             min=i;
             for(int j=i+1;j<n;j++)
@@ -22,6 +23,7 @@ public class Sort {
         for(int i=0;i<n;i++)
         System.out.print(a[i]+", ");
         System.out.println();
+        //Selection sort in descending order
         a=b;
         for(int i=0;i<n-1;i++){
             max=i;
@@ -35,6 +37,7 @@ public class Sort {
         for(int i=0;i<n;i++)
         System.out.print(a[i]+", ");
         System.out.println();
+        //Bubble sort in ascending order
         a=b;
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++)
@@ -47,6 +50,7 @@ public class Sort {
         for(int i=0;i<n;i++)
         System.out.print(a[i]+", ");
         System.out.println();
+        //Bubble sort in descending order
         a=b;
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++)
